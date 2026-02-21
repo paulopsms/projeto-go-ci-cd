@@ -31,4 +31,4 @@ jobs:
         args: controllers/ database/ models/ routes/
 
     - name: Test
-      run: go test -v main_teste.go
+      run: go test -v .
